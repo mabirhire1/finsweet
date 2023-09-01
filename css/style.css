@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header styling */
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 14px 10px;
+}
+
+header .logo{
+    font-size:22px ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  column-gap:130px;
+  border-right: 1px solid grey;
+  font-size: 30px;
+  line-height: 28px;
+  padding: 5px 55px 5px 0px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav .right-contact{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+nav .right-contact .right-contact-text h4{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 40%;
+}
+nav .right-contact .right-contact-text p{
+    font-size: 18px;
+    line-height: 31.5px;
+    color: #1E1B1B;
+}
+
+/* main styling */
+
+main{
+    width: 80%;
+    height: 92vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+/* Left container styling */
+main .container .left-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .container .left-text .content{
+    width: 92%;
+    height: 70%;
+}
+
+main .container .left-text .content h1{
+    font-size: 120px;
+}
+
+button{
+    margin-top: 40px;
+    width: 280px;
+    height: 90px;
+    border-radius: 12px;
+    font-size: 25px;
+    background-color: #FF6433;
+    border: 1px solid #FF6433;
+    color: white;
+    cursor: pointer;
+}
+
+main .container .left-text .content-time{
+    display: flex;
+    column-gap: 18px;
+    margin-top: 60px;
+}
+
+main .container .left-text .content-time h3{
+    color: #939191;
+    font-size: 22px;
+}
+ 
+/* Right Image Styling */
+main .container .right-image{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/Image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .container .right-image .service{
+    position: absolute;
+    left: -17%;
+    top: 0;
+}
+
+main .container .right-image .ratings{
+    position: absolute;
+    right: -11%;
+    bottom: 0;
+}
+
