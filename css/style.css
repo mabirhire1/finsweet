@@ -6,32 +6,32 @@
 
 /* header styling */
 header{
-    width: 80%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 14px 10px;
+    padding: 20px 150px 20px 0;
 }
 
 header .logo{
-    font-size:22px ;
+    font-size:18px ;
 }
 
 nav{
     display: flex;
     align-items: center;
-    column-gap: 50px;
+    column-gap: 30px;
 }
 
 nav ul{
   display: flex;
   align-items: center;
-  column-gap:130px;
+  column-gap: 80px;
   border-right: 1px solid grey;
-  font-size: 30px;
+  font-size: 22px; 
   line-height: 28px;
-  padding: 5px 55px 5px 0px;
+  padding: 5px 50px 5px 0;
 }
 
 nav ul li{
@@ -44,22 +44,25 @@ nav .right-contact{
     column-gap: 10px;
 }
 
-nav .right-contact .right-contact-text h4{
+nav .right-contact .right-contact-text p{
     font-size: 16px;
     line-height: 24px;
-    opacity: 40%;
-}
-nav .right-contact .right-contact-text p{
+    font-weight: 500;
+    opacity: 70%;
+} 
+
+nav .right-contact .right-contact-text h6
+{
     font-size: 18px;
     line-height: 31.5px;
-    color: #1E1B1B;
-}
+    font-weight: 600;
+} 
 
 /* main styling */
 
 main{
-    width: 80%;
-    height: 92vh;
+    width: 75%;
+    height: 91vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -69,12 +72,13 @@ main{
 
 main .container{
     width: 100%;
-    height: 80%;
+    height: 75%;
     display: flex;
 }
+
 /* Left container styling */
 main .container .left-text{
-    width: 50%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -82,35 +86,48 @@ main .container .left-text{
 }
 
 main .container .left-text .content{
-    width: 92%;
-    height: 70%;
+    width: 93%;
+    height: 66%;
 }
 
 main .container .left-text .content h1{
-    font-size: 120px;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    line-height: 124px;
+    padding-top: 10px;
 }
 
 button{
-    margin-top: 40px;
-    width: 280px;
-    height: 90px;
-    border-radius: 12px;
-    font-size: 25px;
+    margin-top: 20px;
+    width: 310px;
+    height: 76px;
+    border-radius: 14px;
+    font-size: 24px;
     background-color: #FF6433;
     border: 1px solid #FF6433;
     color: white;
-    cursor: pointer;
 }
 
 main .container .left-text .content-time{
     display: flex;
-    column-gap: 18px;
-    margin-top: 60px;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 50px;
 }
 
-main .container .left-text .content-time h3{
+main .container .left-text .content-time-text h6{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
     color: #939191;
-    font-size: 22px;
+}
+main .container .left-text .content-time-text h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.5px;
+    color: #1E1B1B;
+    letter-spacing: 4px;
 }
  
 /* Right Image Styling */
@@ -122,17 +139,20 @@ main .container .right-image{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    margin: 0 150px 90px 0; 
 }
 
 main .container .right-image .service{
     position: absolute;
-    left: -17%;
-    top: 0;
+    left: -26%;
+    top: 3%;
+    width: 110%;
 }
 
 main .container .right-image .ratings{
     position: absolute;
-    right: -11%;
-    bottom: 0;
+    right: -43%;
+    bottom: -8%;
+    width: 110%;
 }
 
