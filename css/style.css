@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 10px 70px 10x 0;
+    padding: 10px 70px 10px 0;
 }
 
 header .logo{
@@ -27,11 +27,11 @@ nav{
 nav ul{
   display: flex;
   align-items: center;
-  column-gap: 120px;
+  column-gap: 130px;
   border-right: 1px solid grey;
   font-size: 24px; 
   line-height: 28px;
-  padding: 5px 50px 5px 0;
+  padding: 5px 60px 5px 0;
 }
 
 nav ul li{
@@ -46,7 +46,7 @@ nav .right-contact{
 }
 
 nav .right-contact .right-contact-text p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 500;
     opacity: 70%;
@@ -54,7 +54,7 @@ nav .right-contact .right-contact-text p{
 
 nav .right-contact .right-contact-text h6
 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 31.5px;
     font-weight: 600;
 } 
@@ -92,7 +92,7 @@ main .container .left-text .content{
 }
 
 main .container .left-text .content h1{
-    font-size:55px;
+    font-size:90px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
     line-height: 94px;
