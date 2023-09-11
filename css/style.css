@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;    box-sizing: border-box;
+    
 }
 
 /* header styling */
@@ -52,8 +53,7 @@ nav .right-contact .right-contact-text p{
     opacity: 70%;
 } 
 
-nav .right-contact .right-contact-text h6
-{
+nav .right-contact .right-contact-text h6{
     font-size: 20px;
     line-height: 31.5px;
     font-weight: 600;
@@ -93,7 +93,6 @@ main .container .left-text .content{
 
 main .container .left-text .content h1{
     font-size:90px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
     line-height: 94px;
     padding-top: 50px;
@@ -184,8 +183,8 @@ main .container .right-image .service{
   
 main .container .right-image .ratings{
     position: absolute;
-    right: -45%;
-    bottom: -20%;
-    width: 110%;
+    right: -40%;
+    bottom: -18%;
+    width: 105%;
 }
 
