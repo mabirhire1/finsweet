@@ -1,68 +1,86 @@
+/* google styling */
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Manrope', sans-serif;    box-sizing: border-box;
-    
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* header styling */
 header{
-    width: 75%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 10px 70px 10px 0;
+    padding: 12px 20px 12 0px;  
 }
 
 header .logo{
-    font-size:20px ;
+    font-size:14px;
 }
 
 nav{
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 20px; 
 }
 
 nav ul{
   display: flex;
   align-items: center;
-  column-gap: 130px;
-  border-right: 1px solid grey;
-  font-size: 24px; 
+  column-gap: 75px;
+  border-right: 1px solid gray;
+  padding: 5px 20px 5px 0px ; 
+  font-size: 16px; 
   line-height: 28px;
-  padding: 5px 60px 5px 0;
 }
 
 nav ul li{
     list-style: none;
+    font-family: 'Playfair Display', serif;
 }
 
 nav .right-contact{
     display: flex;
     align-items: center;
     column-gap: 10px;
-    padding: 0 30px;
 }
 
+nav .right-contact .right-contact-icon{
+    background-color: #5cba99;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right-contact .right-contact-icon:hover{
+    background-color: #FF6433;
+    transition: 0.7s;
+}
+
+
 nav .right-contact .right-contact-text p{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
     font-weight: 500;
     opacity: 70%;
 } 
 
 nav .right-contact .right-contact-text h6{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 31.5px;
     font-weight: 600;
 } 
 
 /* main styling */
-
 main{
-    width: 75%;
+    width: 80%;
     height: 91vh;
     margin: auto;
     display: flex;
@@ -92,38 +110,47 @@ main .container .left-text .content{
 }
 
 main .container .left-text .content h1{
-    font-size:90px;
+    font-size: 62px;
     font-weight: 800;
-    line-height: 94px;
-    padding-top: 50px;
+    line-height: 74px;
 }
 
-button{
-    margin-top: 50px;
-    width: 300px;
-    height: 95px;
+.btn{
+    margin-top: 30px;
+    width: 210px;
+    height: 60px;
     border-radius: 14px;
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 31.5px;
     background-color: #FF6433;
     border: 1px solid #FF6433;
     color: white;
+    cursor: pointer;
+    transition: all ease-in-out o.4s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    background-color: #5cba99;
+    border-radius: 50px;
+    border: 1px solid #5cba99;
 }
 
 main .container .left-text .content-time{
     display: flex;
     align-items: center;
-    column-gap: 14px;
-    padding-top: 94px;
+    column-gap: 5px;
+    padding-top: 30px;
 }
 
 main .container .left-text .content-time-text p{
-    font-size: 22px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     color: #939191;
 }
-main .container .left-text .content-time-text h6 {
-    font-size: 26px;
+main .container .left-text .content-time-text h6{
+    font-size: 18px;
     font-weight: 600;
     line-height: 31.5px;
     color: #1E1B1B;
@@ -137,54 +164,98 @@ main .container .right-image{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative; 
-    margin: 0 100px 90px 0;
+    position: relative;
+    margin: 0 20px 0 20px;
 }
 
 main .container .right-image .service{
     background-color: rgb(255, 255, 255, 0.633);
-    width: 470px;
-    height: 150px;
-    border-radius: 70px;
-    margin-left: 40%;
+    width: 300px;
+    height: 110px;
+    border-radius: 50px;
+    margin-left: 41%; 
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: -45%;
-    top: 14%;
+    top: 10%;
 }
-  
+
 .inside{
-    width: 92%;
-    height: 82%;
+    width: 90%;
+    height: 80%;
     background-color: white;
-    border-radius: 70px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
-    column-gap: 35px;
-    padding: 0 16px;
+    column-gap: 12px; 
+    padding: 2px 0 2px 6px; 
 }
   
 .inside .left{
     height: 90%;
     width: 30%;
-    border-radius: 70px;
-    color: white;
+    border-radius: 50px;
     background-color: #5cba99;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
   
 .inside p{
-    font-size: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
 }
   
-main .container .right-image .ratings{
+main .container .right-image .rating{
+    background-color: rgb(255, 255, 255, 0.633);
+    width: 330px;
+    height: 110px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    right: -40%;
-    bottom: -18%;
-    width: 105%;
+    right: -18px;
+    bottom: 20px;
+}
+
+.inside1{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex; 
+    align-items: center; 
+    column-gap: 10px;
+    padding-left: 30px;
+}
+  
+.inside1 .left1{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+} 
+
+.inside1 .left1 .icon-container{
+    display: flex;
+    flex-direction: flex-end;
+    align-items: center;
+    column-gap: 17px;
+    padding-left: 10px;
+}  
+
+/* car servicing section */
+#car-service{
+    background-color: #e2e6e9;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
