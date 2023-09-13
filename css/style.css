@@ -81,7 +81,7 @@ nav .right-contact .right-contact-text h6{
 /* main styling */
 main{
     width: 80%;
-    height: 91vh;
+    height: 89vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ main .container .left-text .content{
 }
 
 main .container .left-text .content h1{
-    font-size: 50px;
+    font-size: 49px;
     font-weight: 800;
     line-height: 54px;
 }
