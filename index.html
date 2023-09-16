@@ -1,93 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- css link -->
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Google font link
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css link -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Google font link
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
-   
-    <!-- Font Awesome link -->
-    <script src="https://kit.fontawesome.com/b65072501e.js" crossorigin="anonymous"></script>
 
-    <!-- Title -->
-    <title>finsweet</title>
+  <!-- Font Awesome link -->
+  <script src="https://kit.fontawesome.com/b65072501e.js" crossorigin="anonymous"></script>
+
+  <!-- Title -->
+  <title>finsweet-2</title>
 </head>
 <body>
     <header>
         <!-- header housing the nav bar and list items-->
         <div class="logo">
-            <h1>{finsweet</h1>
+          <h1>{finsweet</h1>
         </div>
         <nav>
-           <ul>
-             <li>Home</li>
-             <li>About us</li>
-             <li>Services</li>
-             <li>Blog</li>
-             <li>Contact</li>
-           </ul>
-           <div class="right-contact">
-              <div class="right-contact-icon">
-                  <!-- <img src="./img/Assistance Icon.png" alt="Assistance Icon"> -->
-                  <i class="fa-solid fa-phone" style="color: #ffff;"></i>
-                </div>
-              <div class="right-contact-text">   
-                  <p>Road Asssitance</p>
-                  <h6>1800 265 24 52</h6>
-              </div>
-           </div>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Services</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+            <div class="right-contact">
+            <div class="right-contact-icon">
+              <!-- <img src="./img/Assistance Icon.png" alt="Assistance Icon">  -->
+              <i class="fa-solid fa-phone" style="color: #ffff;"></i> 
+            </div>
+            <div class="right-contact-text">
+              <p>Road Asssitance</p>
+              <h6>1800 265 24 52</h6>
+            </div>
+          </div>
         </nav>
     </header>
-   <!-- main body housing the left text and right image -->
-    <main>
+      <!-- main body housing the left text and right image -->
+    
+      <main class="parent-flex">
         <div class="container">
-            <!-- left text -->
-            <div class="left-text">
+       <!-- left text Styling-->
+            <div class="left-text left">
                 <div class="content">
                     <h1>Get your vehicle service done online at one place</h1>
-                    <button class="btn">Book a service</button>              
-                 <div  class="content-time">
-                       <div class="content-time-icon">
-                          <img src="./img/Icon.png" alt="Icon">
-                       </div>
-                       <div class="content-time-text">   
-                          <p>We are open </p>
-                          <h6>Monday to Friday 9:00 AM to 10:00 AM</h6>
-                       </div>
-                    </div>   
+                    <button class="btn">Book a service</button>
+                        <div class="content-time">
+                            <div class="content-time-icon">
+                                <img src="./img/Icon.png" alt="Icon">
+                            </div>
+                            <div class="content-time-text">
+                                <p>We are open </p>
+                                <h6>Monday to Friday 9:00 AM to 10:00 AM</h6>
+                            </div>
+                        </div>
                 </div>
             </div>
-            <!-- right image styling-->
-            <div class="right-image">
-                <div class="service">
-                    <div class="inside">
-                    <div class="left">
-                      <p>24 hr</p>
-                    </div>  
-                    <p>Quick Service</p>
-                  </div>
+
+       <!-- right image styling-->
+
+      <div class="right-image right">
+        <div class="service">
+            <div class="inside">
+                <div class="left">
+                    <p>24 hr</p>
                 </div>
-                <div class="rating">
-                   <div class="inside1">
-                      <div class="left1">
-                          <p>4.5/5<br/>Rating</p>
-                          <div class="icon-container">
-                            <i class="fa-solid fa-star" style="color: goldenrod;"></i>  
-                            <i class="fa-solid fa-star" style="color: goldenrod;"></i>  
-                            <i class="fa-solid fa-star" style="color: goldenrod;"></i>  
-                            <i class="fa-solid fa-star" style="color: goldenrod;"></i>  
-                            <i class="fa-solid fa-star" style="color: goldenrod;"></i>  
-                          </div>
-                      </div>
-                   </div>
+                <p>Quick Service</p>
+            </div>
+        </div>
+        <div class="rating">
+            <div class="inside1">
+                <div class="left1">
+                    <p>4.5/5 <br/>Rating</p>
+                </div>    
+                <div class="icon-container">
+                    <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod;"></i> 
                 </div>
             </div>
         </div>
-    </main>
-</body>
+  </main>
+
+  
+ <!-- car servicing section -->
+   
+ <section id="car-servicing" class="car-service parent-flex">
+    <div class="container">
+      <div class="left">
+        <h2>We are taking car servicing seriously</h2>
+        <div class="feature">
+          <div class="one service-feature">
+            <div class="service-feature-icon">
+              <img src="./img/feature1icon.png" alt="feature1icon" >
+            </div>
+            <div class="service-feature-text">
+              <h4 style="font-size: 25px; padding-bottom: 3px;">
+                Convenient service
+              </h4>
+              <p>Through True Rich Attended does no end<br/> 
+              it his mother since real had half every him.</p>
+            </div>
+          </div>
+        </div>
+        <div class="two service-feature">
+          <div class="service-feature-icon">
+            <img src="./img/feature2icon.png" alt="feature2icon" >
+          </div>
+          <div class="service-feature-text">
+            <h4 style="font-size: 25px; padding-bottom: 3px;">
+              Expert mechanics
+            </h4>
+            <p>Through True Rich Attended does no end<br/> 
+            it his mother since real had half every him</p>
+          </div>
+        </div>
+        <div class="three service-feature">
+          <div class="service-feature-icon">
+            <img src="./img/feature3icon.png" alt="feature3icon">
+          </div>
+          <div class="service-feature-text">
+            <h4>
+              Transparent pricing
+            </h4>
+            <p>Through True Rich Attended does no end<br/> 
+            it his mother since real had half every him.</p>
+            <div class="info">
+              <p>know more about us</p>
+              <img src="./img/Arrow.png" alt="Arrow icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="quote-form">
+          <h3>Get a quote for the car service</h3>
+          <form>
+            <div class="form-input">
+              <input placeholder="Enter your location">
+              <input placeholder="Enter your location">
+              <input placeholder="Enter your location">
+              <input placeholder="Enter your number">
+            </div>
+          </form>  
+          <button class="btn">Get your quote</button>
+        </div>
+      </div>  
+    </div>
+  </section>
+  
+  <!-- get a quote section -->
+  <section id="get-a-quote" class="parent-flex">
+    <div class="container" id="right-container">
+      <div class="left">
+        <h2>We follow a clear process to help you out.</h2>
+        <p>Through True Rich Attended does no<br/> end
+          it his mother since real had half<br/>every.</p>
+        <button class="btn">learn more</button> 
+      </div>
+      <div id="right-container"   class="right">
+        <div class="01 quote-feature">
+          <div class="01-icon">
+            <img src="./img/Group 9129.png" alt="Group 9129" >
+          </div>
+          <div class=" 01-text">
+            <h5>Get a Quote</h5>
+            <p>Through True Rich Attended does no<br/> end 
+            it his mother since real had half every</p>
+          </div>
+        </div>
+        <div class="02 quote-feature">
+          <div class="02-icon">
+            <img src="./img/Group 9130.png" alt="Group 9130">
+          </div>
+          <div class=" 02-text">
+            <h5>
+               Book an Appointment
+            </h5>
+            <p>Through True Rich Attended does no<br/> end 
+            it his mother since real had half every</p>
+          </div>
+        </div>
+        <div class="03 quote-feature">
+          <div class="03-icon">
+            <img src="./img/Group 9131.png" alt="Group 9131" >
+          </div>
+          <div class=" 03-text">
+            <h5>
+               Get your Service Done
+            </h5>
+            <p>Through True Rich Attended does no<br/> end 
+            it his mother since real had half every</p>
+          </div>
+        </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <!-- what we offer section -->
+   <section id="what-we-offer" class="parent-flex">
+     <div class="container">
+       <div class="boxes">
+         <p>What we Offer</p>
+         <h4>We offer full service auto repair & maintenance</h4>
+         <div class="parent-row">
+            <div class="row-1">
+                <div class="card">
+                   <div class="card-img"></div>
+                   <img src="./img/Diagnostic-Icon.png" alt="Diagnostics Icon">
+                   <p>Diagnostics</p>
+                  </div>
+                <div class="card">
+                   <img src="./img/Engine-Icon.png" alt="Engine Repair Icon">
+                   <p>Engine Repair</p>
+                </div>
+                <div class="card" style="background-color: #FF6433;">
+                   <img src="./img/Wheel-Icon.png" alt="Wheel Icon">
+                   <p style="color: white;">Wheel Repair</p>  
+                </div>
+                <div class="card">
+                   <img src="./img/Oil-filter-Icon.png" alt="Diagnostics Icon">
+                   <p>Oil Filter</p>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="card">
+                   <img src="./img/Body-work-Icon.png" alt="Body-work-Icon">
+                   <p>Body Work</p>
+                </div>
+                <div class="card">
+                   <img src="./img/Batteries-Icon.png" alt="Batteries Icon">
+                   <p>Batteries</p>  
+                </div>
+                <div class="card">
+                   <img src="./img/Insurance-Icon.png" alt="Insurance Icon">
+                   <p>Insurance Claim </p>
+                </div>
+                <div class="card">
+                   <img src="./img/Customer-service-Icon.png" alt="Customer service Icon">
+                   <p>Customer Service</p>
+                </div>
+              </div>
+              <div class="learn">
+              <p>Learn about services</p>
+              <img src="./img/Arrow.png" alt="Arrow icon">
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="get-in-touch" class="">
+      <div class="first-row">
+          <div class="left-car">
+              <div class="left-car-card">
+                <div class="content">
+                  <h1>Get in touch with us for your service related query</h1>
+                  <button class="btn">Contact Us</button>
+                </div>
+              </div>
+          </div> 
+          <div class="right-car">
+          </div>
+      </div>
+      <div class="second-row">
+        <div class="container">
+          <div class="one">
+           <h1>20+</h1>
+           <p>Professional</p>
+          </div>
+          <div class="two">
+           <h1>10+</h1>
+           <p>Years of Experience</p>
+          </div>
+          <div class="three">
+           <h1>12k+</h1>
+           <p>Service Closed</p>
+          </div>
+          <div class="four">
+           <h1>100%</h1>
+           <p>Customers Satisfaction</p>
+          </div>
+        </div>
+      </div>  
+      
+  </body>
 </html> 
