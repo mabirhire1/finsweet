@@ -275,7 +275,7 @@ main .container .right-image .rating {
 }
 
 .form-input{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 input {
@@ -299,13 +299,20 @@ input {
     font-weight: 800;
     line-height: 76px;
     text-align: left; 
+    padding-bottom: 15px;
+}
+
+#get-a-quote .container .left p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-bottom: 10px;
 }
 
 .quote-feature  {
     display: flex;
     align-items: center;
     column-gap: 30px;
-    line-height: 45px;
     margin-left: 50px; 
 }  
 
@@ -313,9 +320,8 @@ input {
     font-size: 32px; 
     font-weight: 700;
     line-height: 48px;
-    text-align: left;
-    margin-top: 110px;      
-
+    margin-top: 70px; 
+    padding: 20px;
 }   
 
 #get-a-quote .container .right p {
@@ -323,7 +329,7 @@ input {
     font-size: 18px;
     font-weight: 600;
     line-height: 31.5px;
-    padding: 20px;
+    padding: 20px; 
 }
 
 /* what we offer styling */
@@ -451,12 +457,12 @@ input {
 #get-in-touch .second-row .container {
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 #get-in-touch .second-row h1 {
-    color: #661CE7
+    color: #661CE7;
 }
 
 #get-in-touch .btn {
